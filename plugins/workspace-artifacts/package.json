@@ -1,5 +1,5 @@
 {
-  "name": "dsh-plugin-workspace-artifacts",
+  "name": "workspace-artifacts",
   "version": "0.1.0",
   "description": "产物视图：在 Web 会话视图添加「产物」标签，浏览当前工作区文件树并查看文件内容（代码高亮 / Markdown 渲染）。",
   "license": "MIT",
@@ -52,6 +52,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/birdman1992/dsh-birdman-plugins.git",
-    "directory": "plugins/dsh-plugin-workspace-artifacts"
+    "directory": "plugins/workspace-artifacts"
   }
 }

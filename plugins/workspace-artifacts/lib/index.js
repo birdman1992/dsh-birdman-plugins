@@ -1,5 +1,5 @@
 /**
- * dsh-plugin-workspace-artifacts — host half（产物视图）。
+ * workspace-artifacts — host half（产物视图）。
  *
  * 在 Web 会话视图添加「产物」标签：浏览当前会话工作区（session.header.cwd）
  * 的目录树并查看文件内容（代码高亮 / Markdown 渲染）。

@@ -8,8 +8,8 @@ Birdman 的 [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-har
 
 | 插件 | 类型 | 作用 |
 | --- | --- | --- |
-| [dsh-plugin-model-autofill](plugins/dsh-plugin-model-autofill) | host | 模型信息自动补全：在 `llm-pi-ai` 设置命名空间中自动补全缺失的模型显示名、上下文窗口和最大输出 token（数据来自 pi-ai 内置模型目录） |
-| [dsh-plugin-workspace-artifacts](plugins/dsh-plugin-workspace-artifacts) | host + client | 产物视图：在 Web 会话视图中添加「产物」标签，浏览当前工作区文件树并查看文件内容（代码高亮 / Markdown 渲染） |
+| [model-autofill](plugins/model-autofill) | host | 模型信息自动补全：在 `llm-pi-ai` 设置命名空间中自动补全缺失的模型显示名、上下文窗口和最大输出 token（数据来自 pi-ai 内置模型目录） |
+| [workspace-artifacts](plugins/workspace-artifacts) | host + client | 产物视图：在 Web 会话视图中添加「产物」标签，浏览当前工作区文件树并查看文件内容（代码高亮 / Markdown 渲染） |
 
 ## 安装
 
@@ -17,10 +17,10 @@ Birdman 的 [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-har
 
 ```sh
 # 安装 model-autofill（模型信息自动补全）
-dsh plugin --profile web add dsh-plugin-model-autofill
+dsh plugin --profile web add model-autofill
 
 # 安装 workspace-artifacts（产物视图）
-dsh plugin --profile web add dsh-plugin-workspace-artifacts
+dsh plugin --profile web add workspace-artifacts
 ```
 
 安装后重启 profile 生效：
@@ -37,10 +37,10 @@ dsh --profile web
 
 ```sh
 # 安装 model-autofill（模型信息自动补全）
-dsh plugin --profile web add github:birdman1992/dsh-birdman-plugins#path:plugins/dsh-plugin-model-autofill
+dsh plugin --profile web add github:birdman1992/dsh-birdman-plugins#path:plugins/model-autofill
 
 # 安装 workspace-artifacts（产物视图）
-dsh plugin --profile web add github:birdman1992/dsh-birdman-plugins#path:plugins/dsh-plugin-workspace-artifacts
+dsh plugin --profile web add github:birdman1992/dsh-birdman-plugins#path:plugins/workspace-artifacts
 ```
 
 > git 安装拉取的是源码而非构建产物。这两个插件都是纯 JS、无 `build` 步骤，
@@ -52,11 +52,11 @@ dsh plugin --profile web add github:birdman1992/dsh-birdman-plugins#path:plugins
 
 ```sh
 # 从本地目录安装（调试）
-dsh plugin --profile web add ./plugins/dsh-plugin-model-autofill
+dsh plugin --profile web add ./plugins/model-autofill
 
 # 卸载
-dsh plugin --profile web remove dsh-plugin-model-autofill
-dsh plugin --profile web remove dsh-plugin-workspace-artifacts
+dsh plugin --profile web remove model-autofill
+dsh plugin --profile web remove workspace-artifacts
 ```
 
 ## 插件清单要点（写给插件作者）

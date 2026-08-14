@@ -1,6 +1,6 @@
-# dsh-plugin-workspace-artifacts bundle layer: inserts the workspace-artifacts
+# workspace-artifacts bundle layer: inserts the workspace-artifacts
 # row into the host composition when this bundle is added to a profile.
 # The client half is discovered via package.json dsh.client + exports["./client"].
 - insert:
     - id: workspace-artifacts
-      name: dsh-plugin-workspace-artifacts
+      name: workspace-artifacts

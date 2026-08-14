@@ -1,4 +1,4 @@
-# dsh-plugin-workspace-artifacts
+# workspace-artifacts
 
 English | [中文](README.md)
 
@@ -27,13 +27,13 @@ current session workspace (`session.header.cwd`) and shows file contents:
 Published to npm — install directly:
 
 ```sh
-dsh plugin --profile web add dsh-plugin-workspace-artifacts
+dsh plugin --profile web add workspace-artifacts
 ```
 
 Or install directly from GitHub:
 
 ```sh
-dsh plugin --profile web add github:birdman1992/dsh-birdman-plugins#path:plugins/dsh-plugin-workspace-artifacts
+dsh plugin --profile web add github:birdman1992/dsh-birdman-plugins#path:plugins/workspace-artifacts
 ```
 
 Restart the profile afterwards:

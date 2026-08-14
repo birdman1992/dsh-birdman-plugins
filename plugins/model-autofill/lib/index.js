@@ -1,5 +1,5 @@
 /**
- * dsh-plugin-model-autofill — host composition plugin.
+ * model-autofill — host composition plugin.
  *
  * Auto-completes model entries in the `llm-pi-ai` settings namespace
  * (`$DSH_HOME/settings.yaml`, written by the web Models page): whenever a

@@ -1,8 +1,8 @@
 /**
- * dsh-plugin-workspace-artifacts - client half.
+ * workspace-artifacts - client half.
  */
 window.__ModuleLoader__.load({
-	id: "dsh-plugin-workspace-artifacts",
+	id: "workspace-artifacts",
 	factory: (require) => {
 		var module = { exports: {} };
 		var exports = module.exports;

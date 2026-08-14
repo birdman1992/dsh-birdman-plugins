@@ -1,5 +1,5 @@
 {
-  "name": "dsh-plugin-model-autofill",
+  "name": "model-autofill",
   "version": "0.1.0",
   "description": "Auto-complete missing model display name, context window, and max output tokens in the llm-pi-ai settings namespace from the pi-ai built-in catalog.",
   "license": "MIT",
@@ -36,6 +36,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/birdman1992/dsh-birdman-plugins.git",
-    "directory": "plugins/dsh-plugin-model-autofill"
+    "directory": "plugins/model-autofill"
   }
 }
