@@ -370,7 +370,7 @@ body[data-ds-dark-theme] .maf-md a { color: #58a6ff; }
         let cancelled = false
         ;(async () => {
           try {
-            const result = await host.call('artifacts.workspace', { sessionId })
+            const result = await host.call('artifacts/workspace', { sessionId })
             if (!cancelled && result && !result.error && result.path) setRoot(result.path)
             else if (!cancelled) setError(result && result.error ? result.error : 'workspace resolve failed')
           } catch (e) {
@@ -390,7 +390,7 @@ body[data-ds-dark-theme] .maf-md a { color: #58a6ff; }
             setLoading(true)
             setError(null)
             try {
-              const result = await host.call('artifacts.list', { path: root })
+              const result = await host.call('artifacts/list', { path: root })
               if (result && !result.error) {
                 setChildrenMap((prev) => ({ ...prev, [root]: result.entries }))
                 setExpanded((prev) => ({ ...prev, [root]: true }))
@@ -408,7 +408,7 @@ body[data-ds-dark-theme] .maf-md a { color: #58a6ff; }
         setLoading(true)
         setError(null)
         try {
-          const result = await host.call('artifacts.read', { path })
+          const result = await host.call('artifacts/read', { path })
           if (!result || result.error) {
             setError(result && result.error ? result.error : 'read failed')
             return
@@ -444,7 +444,7 @@ body[data-ds-dark-theme] .maf-md a { color: #58a6ff; }
           setLoading(true)
           setError(null)
           try {
-            const result = await host.call('artifacts.list', { path: node.path })
+            const result = await host.call('artifacts/list', { path: node.path })
             if (result && !result.error) {
               setChildrenMap((prev) => ({ ...prev, [node.path]: result.entries }))
               setExpanded((prev) => ({ ...prev, [node.path]: true }))
@@ -464,7 +464,7 @@ body[data-ds-dark-theme] .maf-md a { color: #58a6ff; }
         setLoading(true)
         setError(null)
         try {
-          const result = await host.call('artifacts.list', { path: root })
+          const result = await host.call('artifacts/list', { path: root })
           if (result && !result.error) {
             setChildrenMap({ [root]: result.entries })
             setExpanded({ [root]: true })
