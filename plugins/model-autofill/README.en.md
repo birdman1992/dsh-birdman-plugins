@@ -24,7 +24,7 @@ correctly.
 Published to npm — install directly:
 
 ```sh
-dsh plugin --profile web add model-autofill
+dsh plugin --profile web add @birdman1992/model-autofill
 ```
 
 Or install directly from GitHub:
@@ -40,6 +40,6 @@ dsh --profile web
 ```
 
 > If you previously installed this plugin via a `link:` dependency, first run
-> `dsh plugin --profile web remove model-autofill` and delete the
+> `dsh plugin --profile web remove @birdman1992/model-autofill` and delete the
 > manually inserted model-autofill row from `cordis.patch.yml` before running
 > the install command above, to avoid inserting the same row id twice.

@@ -3,4 +3,4 @@
 # The client half is discovered via package.json dsh.client + exports["./client"].
 - insert:
     - id: workspace-artifacts
-      name: workspace-artifacts
+      name: "@birdman1992/workspace-artifacts"

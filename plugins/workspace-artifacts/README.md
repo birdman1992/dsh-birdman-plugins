@@ -26,7 +26,7 @@
 已发布到 npm，直接安装：
 
 ```sh
-dsh plugin --profile web add workspace-artifacts
+dsh plugin --profile web add @birdman1992/workspace-artifacts
 ```
 
 也可以从 GitHub 直装：

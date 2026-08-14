@@ -20,7 +20,7 @@
 已发布到 npm，直接安装：
 
 ```sh
-dsh plugin --profile web add model-autofill
+dsh plugin --profile web add @birdman1992/model-autofill
 ```
 
 也可以从 GitHub 直装：
@@ -36,6 +36,6 @@ dsh --profile web
 ```
 
 > 如果此前已经用 `link:` 方式安装过该插件，请先执行
-> `dsh plugin --profile web remove model-autofill` 并删除
+> `dsh plugin --profile web remove @birdman1992/model-autofill` 并删除
 > `cordis.patch.yml` 中手动插入的 model-autofill 行，再执行上面的安装命令，
 > 避免重复插入同一行 id。

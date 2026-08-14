@@ -27,7 +27,7 @@ current session workspace (`session.header.cwd`) and shows file contents:
 Published to npm — install directly:
 
 ```sh
-dsh plugin --profile web add workspace-artifacts
+dsh plugin --profile web add @birdman1992/workspace-artifacts
 ```
 
 Or install directly from GitHub:

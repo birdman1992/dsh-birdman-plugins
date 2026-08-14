@@ -2,4 +2,4 @@
 # into the host composition when this bundle is added to a profile.
 - insert:
     - id: model-autofill
-      name: model-autofill
+      name: "@birdman1992/model-autofill"

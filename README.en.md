@@ -17,10 +17,10 @@ Both plugins are published to npm; the recommended way is to install via npm:
 
 ```sh
 # Install model-autofill
-dsh plugin --profile web add model-autofill
+dsh plugin --profile web add @birdman1992/model-autofill
 
 # Install workspace-artifacts (artifacts view)
-dsh plugin --profile web add workspace-artifacts
+dsh plugin --profile web add @birdman1992/workspace-artifacts
 ```
 
 Restart the profile after installing:
@@ -56,8 +56,8 @@ dsh plugin --profile web add github:birdman1992/dsh-birdman-plugins#path:plugins
 dsh plugin --profile web add ./plugins/model-autofill
 
 # Uninstall
-dsh plugin --profile web remove model-autofill
-dsh plugin --profile web remove workspace-artifacts
+dsh plugin --profile web remove @birdman1992/model-autofill
+dsh plugin --profile web remove @birdman1992/workspace-artifacts
 ```
 
 ## Bundle manifest essentials (for plugin authors)

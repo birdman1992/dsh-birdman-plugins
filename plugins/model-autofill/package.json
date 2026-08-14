@@ -1,5 +1,5 @@
 {
-  "name": "model-autofill",
+  "name": "@birdman1992/model-autofill",
   "version": "0.1.0",
   "description": "Auto-complete missing model display name, context window, and max output tokens in the llm-pi-ai settings namespace from the pi-ai built-in catalog.",
   "license": "MIT",

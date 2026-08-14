@@ -17,10 +17,10 @@ Birdman 的 [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-har
 
 ```sh
 # 安装 model-autofill（模型信息自动补全）
-dsh plugin --profile web add model-autofill
+dsh plugin --profile web add @birdman1992/model-autofill
 
 # 安装 workspace-artifacts（产物视图）
-dsh plugin --profile web add workspace-artifacts
+dsh plugin --profile web add @birdman1992/workspace-artifacts
 ```
 
 安装后重启 profile 生效：
@@ -55,8 +55,8 @@ dsh plugin --profile web add github:birdman1992/dsh-birdman-plugins#path:plugins
 dsh plugin --profile web add ./plugins/model-autofill
 
 # 卸载
-dsh plugin --profile web remove model-autofill
-dsh plugin --profile web remove workspace-artifacts
+dsh plugin --profile web remove @birdman1992/model-autofill
+dsh plugin --profile web remove @birdman1992/workspace-artifacts
 ```
 
 ## 插件清单要点（写给插件作者）
