@@ -1,0 +1,5 @@
+# dsh-plugin-model-autofill bundle layer: inserts the model-autofill row
+# into the host composition when this bundle is added to a profile.
+- insert:
+    - id: model-autofill
+      name: dsh-plugin-model-autofill

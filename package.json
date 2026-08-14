@@ -1,0 +1,10 @@
+{
+  "name": "dsh-birdman-plugins",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Birdman 的 DSH 插件集合：dsh-plugin-model-autofill + dsh-plugin-workspace-artifacts",
+  "license": "MIT",
+  "workspaces": [
+    "plugins/*"
+  ]
+}
