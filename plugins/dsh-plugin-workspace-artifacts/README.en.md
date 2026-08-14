@@ -24,6 +24,14 @@ current session workspace (`session.header.cwd`) and shows file contents:
 
 ## Install
 
+Published to npm — install directly:
+
+```sh
+dsh plugin --profile web add dsh-plugin-workspace-artifacts
+```
+
+Or install directly from GitHub:
+
 ```sh
 dsh plugin --profile web add github:birdman1992/dsh-birdman-plugins#path:plugins/dsh-plugin-workspace-artifacts
 ```

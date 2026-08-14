@@ -23,6 +23,14 @@
 
 ## 安装
 
+已发布到 npm，直接安装：
+
+```sh
+dsh plugin --profile web add dsh-plugin-workspace-artifacts
+```
+
+也可以从 GitHub 直装：
+
 ```sh
 dsh plugin --profile web add github:birdman1992/dsh-birdman-plugins#path:plugins/dsh-plugin-workspace-artifacts
 ```

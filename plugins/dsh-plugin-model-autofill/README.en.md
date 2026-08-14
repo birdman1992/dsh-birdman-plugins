@@ -21,6 +21,14 @@ correctly.
 
 ## Install
 
+Published to npm — install directly:
+
+```sh
+dsh plugin --profile web add dsh-plugin-model-autofill
+```
+
+Or install directly from GitHub:
+
 ```sh
 dsh plugin --profile web add github:birdman1992/dsh-birdman-plugins#path:plugins/dsh-plugin-model-autofill
 ```

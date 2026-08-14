@@ -11,11 +11,29 @@ A collection of [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek
 | [dsh-plugin-model-autofill](plugins/dsh-plugin-model-autofill) | host | Auto-fills missing model metadata: display name, context window, and max output tokens in the `llm-pi-ai` settings namespace (data sourced from the pi-ai built-in model catalog) |
 | [dsh-plugin-workspace-artifacts](plugins/dsh-plugin-workspace-artifacts) | host + client | Artifacts view: adds an "Artifacts" tab to the web session view to browse the current workspace file tree and view file contents (syntax highlighting / Markdown rendering) |
 
-## Install (direct from GitHub, no npm registry needed)
+## Install
+
+Both plugins are published to npm; the recommended way is to install via npm:
+
+```sh
+# Install model-autofill
+dsh plugin --profile web add dsh-plugin-model-autofill
+
+# Install workspace-artifacts (artifacts view)
+dsh plugin --profile web add dsh-plugin-workspace-artifacts
+```
+
+Restart the profile after installing:
+
+```sh
+dsh --profile web
+```
+
+### Alternative: install directly from GitHub (no npm registry needed)
 
 This repository is a pnpm workspace monorepo; both plugins live under `plugins/`.
 The `dsh plugin` command forwards to pnpm inside the profile directory, so you
-can install straight from a git repository subdirectory:
+can also install straight from a git repository subdirectory:
 
 ```sh
 # Install model-autofill
@@ -30,12 +48,6 @@ dsh plugin --profile web add github:birdman1992/dsh-birdman-plugins#path:plugins
 > pnpm >= 10 asks for an `allowBuilds` allowlist (only when a package declares
 > a `prepare` script), allow the package name in the profile's
 > `pnpm-workspace.yaml`.
-
-Restart the profile after installing:
-
-```sh
-dsh --profile web
-```
 
 ## Uninstall / local development
 
