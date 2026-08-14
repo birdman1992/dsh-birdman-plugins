@@ -3,6 +3,18 @@
   "version": "0.1.0",
   "description": "Auto-complete missing model display name, context window, and max output tokens in the llm-pi-ai settings namespace from the pi-ai built-in catalog.",
   "license": "MIT",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "deepseek",
+    "plugin",
+    "model"
+  ],
+  "homepage": "https://github.com/birdman1992/dsh-birdman-plugins#readme",
+  "bugs": {
+    "url": "https://github.com/birdman1992/dsh-birdman-plugins/issues"
+  },
   "type": "module",
   "main": "lib/index.js",
   "exports": {

@@ -3,6 +3,19 @@
   "version": "0.1.0",
   "description": "产物视图：在 Web 会话视图添加「产物」标签，浏览当前工作区文件树并查看文件内容（代码高亮 / Markdown 渲染）。",
   "license": "MIT",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "deepseek",
+    "plugin",
+    "workspace",
+    "artifacts"
+  ],
+  "homepage": "https://github.com/birdman1992/dsh-birdman-plugins#readme",
+  "bugs": {
+    "url": "https://github.com/birdman1992/dsh-birdman-plugins/issues"
+  },
   "type": "module",
   "main": "lib/index.js",
   "exports": {
