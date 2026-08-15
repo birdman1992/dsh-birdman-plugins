@@ -2,7 +2,7 @@
  * workspace-artifacts - client half.
  */
 window.__ModuleLoader__.load({
-	id: "workspace-artifacts",
+	id: "@birdman1992/workspace-artifacts",
 	factory: (require) => {
 		var module = { exports: {} };
 		var exports = module.exports;
