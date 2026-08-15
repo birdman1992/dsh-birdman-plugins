@@ -1,7 +1,7 @@
 {
   "name": "@birdman1992/model-autofill",
-  "version": "0.1.0",
-  "description": "Auto-complete missing model display name, context window, and max output tokens in the llm-pi-ai settings namespace from the pi-ai built-in catalog.",
+  "version": "0.2.0",
+  "description": "Auto-complete missing model display name, context window, max output tokens, and reasoning efforts in the llm-pi-ai settings namespace.",
   "license": "MIT",
   "keywords": [
     "deepseek-harness",
